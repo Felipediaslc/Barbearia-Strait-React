@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -45,25 +45,21 @@ const Agenda = () => {
 
   return (
     <>
+                  
       <header className="header-log">
         <img className="logo-log-client" src={logo} alt="locomarca" />
         <p className="logo-nome-client">Agenda client</p>
         <nav className="nav-log">
           <ul className="menu-log" role="menu">
             <div className="dropdown">
-              <button className="dropbtn"></button>
-              <div className="dropdown-content">
-                <Link to="">
-                  Sair<i className="fa fa-sign-out" aria-hidden="true"></i>
-                </Link>
-              </div>
+              <button className="dropbtn"><Link to="/login"><i className="fa fa-sign-out"   aria-hidden="true"></i></Link></button>
             </div>
           </ul>
         </nav>
       </header>
       <div className="container-agend">
         <form className="agendament">
-          <h2>Usuario</h2>
+          <h2>Felipe Dias</h2>
 
           <div className="dat">
             <input

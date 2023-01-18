@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import "./MenuPainel.css";
 import logo from "./logosvejasssdeussss.png";
 
@@ -21,7 +22,7 @@ const MenuPainel = ({  onLogout }) => {
               </a>
             </li>
             <li>
-              <i className="fa fa-sign-out" aria-hidden="true"></i>Sair
+              <Link to><i className="fa fa-sign-out" aria-hidden="true"></i>Sair</Link>
             </li>
           </ul>
         </button>

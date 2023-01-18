@@ -33,6 +33,13 @@ const Login = () => {
     }
   };
 
+  const logout =  () =>{
+    console.log("logout");
+    localStorage.removeItem("usuario");
+
+    navigate("/login");
+   };
+
   return (
     <form className="modal01 ">
       <div className="modal01-content">
