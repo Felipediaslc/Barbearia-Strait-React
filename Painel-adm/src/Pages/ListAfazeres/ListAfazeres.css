@@ -1,0 +1,105 @@
+.Afazeres {
+  position: absolute;
+  background-color: none;
+  margin: -30rem 5rem;
+  width: 60vw;
+  z-index: 1000;
+  padding: 5rem;
+  text-align: center;
+  margin-left: 20rem;
+}
+
+.inputWrapper {
+  width: 75.4vw;
+  border-radius: 2rem;
+  background-color: #000000;
+  margin: 18rem -6.5rem;
+}
+
+.nome-page h2 {
+  font-size: 1.4rem;
+  color: #fff;
+  padding-top: 2rem;
+  font-family: "Rubik", sans-serif;
+  margin: 25rem 0 -16rem -0.6rem;
+  background-color: transparent;
+  width: 15vw;
+}
+
+.inputContainer {
+  padding: 10rem;
+  margin: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #6c7293;
+  border-radius: 5px;
+  width: 90%;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #fff;
+
+  font-family: "Rubik", sans-serif;
+}
+input::placeholder {
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+input:focus {
+  border: 1px solid transparent;
+}
+
+button {
+  background-color: #ed8c1a;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 5px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.content {
+  width: 90vw;
+  max-width: 1030px;
+  background-color: #000000;
+  margin: -28rem -6.5rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.noTask {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.listItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #6c7293;
+  background-color: #191c24;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+.listItem p {
+  word-break: break-all;
+  font-size: 1.1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.listItem .actionBtns {
+  display: flex;
+}

@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.cadastro-funcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35rem;
+  position: absolute;
+  z-index: 20;
+  margin-top: 25rem;
+}
+
+.fucion-content {
+  z-index: 10;
+  color: white;
+  margin: -5rem 0;
+  margin-top: -25rem;
+  width: 30vw;
+  height: 70vh;
+  background-color: #191c24;
+  padding: 0;
+
+  border-radius: 1rem;
+  z-index: 20;
+}
+
+.funcion-body {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -2rem;
+  height:66vh;
+}
+.funcion-body p {
+  position: absolute;
+  color: white;
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+  z-index: 10;
+}
+
+.nome {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30vw;
+  height: 0vh;
+  margin-top: 3rem;
+  padding: 2.6rem 2rem;
+  z-index: 2;
+}
+.nome input {
+  width: 30vw;
+  height: 6vh;
+  border-radius: 25rem;
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+  padding: 0.4em 2rem 0.1rem 1.5rem;
+
+  color: #fff;
+  letter-spacing: 0.1rem;
+  outline: none;
+  text-align: center;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.nome input::placeholder {
+  color: #fff;
+
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.celular {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8.5rem;
+  width: 25vw;
+  height: 0vh;
+  z-index: 1;
+  float: left;
+}
+
+.celular input {
+  width: 12.4vw;
+  height: 6vh;
+  text-align: center;
+  padding: 0.4em 2rem 0.1rem 1.5rem;
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+
+  color: #fff;
+  letter-spacing: 0.1rem;
+  outline: none;
+  border-radius: 25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.celular input::placeholder {
+  margin-top: 0.3rem;
+  color: #fff;
+
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.cpf {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 8.5rem;
+  width: 25.6vw;
+  height: 0vh;
+  z-index: 1;
+  float: right;
+}
+
+.cpf input {
+  width: 12.4vw;
+  height: 6vh;
+  padding: 0.4em 2rem 0.1rem 1.5rem;
+  text-align: center;
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+  letter-spacing: 0.1rem;
+  color: #fff;
+
+  outline: none;
+  border-radius: 25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.cpf input::placeholder {
+  color: #fff;
+
+  font-size: 1.1rem;
+}
+
+.av-rua {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 30vw;
+  height: 0vh;
+  margin-top: 9.9rem;
+  padding: 2.6rem 2rem;
+}
+.av-rua input {
+  width: 30vw;
+  height: 6vh;
+  padding: 0.4em 2rem 0.1rem 1.5rem;
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+  letter-spacing: 0.1rem;
+  color: #fff;
+
+  outline: none;
+  border-radius: 25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.av-rua input::placeholder {
+  color: #fff;
+
+  font-size: 1.1rem;
+  padding: 0 -3rem;
+}
+
+.nun-end {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 14rem;
+  width: 25vw;
+  height: 0vh;
+  z-index: 1;
+  float: left;
+}
+
+.nun-end input {
+  width: 12.4vw;
+  height: 6vh;
+  text-align: center;
+  padding: 0.4em 7.5rem 0.1rem 1rem;
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+
+  color: #fff;
+  letter-spacing: 0.1rem;
+  outline: none;
+  border-radius: 25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.nun-end input::placeholder {
+  margin-top: 0.3rem;
+  color: #fff;
+
+  font-size: 1rem;
+}
+
+.complemento {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 14rem;
+  width: 25.6vw;
+  height: 0vh;
+  z-index: 1;
+  float: right;
+}
+
+.complemento input {
+  width: 12.4vw;
+  height: 6vh;
+  padding: 0.4em 1rem 0.1rem 0.8rem;
+
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+  letter-spacing: 0.1rem;
+  color: #fff;
+
+  outline: none;
+  border-radius: 25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.complemento input::placeholder {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.bairro {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 16.8rem;
+  width: 25vw;
+  height: 0vh;
+  z-index: 1;
+  float: left;
+}
+
+.bairro input {
+  width: 12.4vw;
+  height: 6vh;
+  text-align: center;
+  padding: 0.4em 5.7rem 0.1rem 1rem;
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+
+  color: #fff;
+  letter-spacing: 0.1rem;
+  outline: none;
+  border-radius: 25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.bairro input::placeholder {
+  margin-top: 0.3rem;
+  color: #fff;
+
+  font-size: 1rem;
+}
+
+.cidade {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 16.8rem;
+  width: 25.6vw;
+  height: 0vh;
+  z-index: 1;
+  float: right;
+}
+
+.cidade input {
+  width: 12.4vw;
+  height: 6vh;
+  padding: 0.4em 1rem 0.1rem 0.8rem;
+
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+  letter-spacing: 0.1rem;
+  color: #fff;
+
+  outline: none;
+  border-radius: 25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.cidade input::placeholder {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.button-funcionlog {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 5vh;
+  width: 10vw;
+  font-family: "Rubik", sans-serif;
+  background-color: #ed8c1a;
+  padding: 0.1rem 2rem 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 2rem;
+  letter-spacing: 0.1rem;
+  margin-top: 22rem;
+  margin-left: -0.3rem;
+}
+
+.button-funcionlog:hover {
+  background-color: black;
+  color: #ed8c1a;
+  font-weight: bold;
+}

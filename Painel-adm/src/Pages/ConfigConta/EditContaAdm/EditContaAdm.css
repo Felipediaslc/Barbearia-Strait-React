@@ -1,0 +1,304 @@
+.edit-configconta{
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.edit-user-edit{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191c24;
+    border-right: 1px solid #fff;
+    width: 30vw;
+    height: 84vh;
+    margin-left: -51rem;
+    border-radius: 6rem 0 0 0;
+}
+
+.edit-user-edit span{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+
+.edit-user-edit .nom-Empresa-edit{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin-top: -12rem;
+    padding: 2.6rem 2rem;
+    z-index: 2;
+    
+      }
+  .edit-user-edit .nom-Empresa-edit input{
+    width: 23vw;
+    height: 6vh;
+    border-radius: 25rem;
+    background-color:#0f1015;
+    border-bottom:1px solid #6C7293;
+    padding:0.4em 2rem 0.1rem 1.5rem;
+    
+    color: #fff;
+    letter-spacing: 0.1rem;
+    outline: none;
+    
+   
+    font-family: 'Montserrat', sans-serif;
+}
+
+ .nom-Empresa-edit  input::placeholder{
+    color: #fff;
+    
+   
+    font-size: 1.3em;
+}
+
+.edit-user-edit .telefone-edit{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+    margin-top: -6.5rem;
+    padding: 2.6rem 2rem;
+    z-index: 2;
+    
+      }
+  .edit-user-edit .telefone-edit input{
+    width: 23vw;
+    height: 6vh;
+    border-radius: 25rem;
+    background-color:#0f1015;
+    border-bottom:1px solid #6C7293;
+    padding:0.4em 2rem 0.1rem 1.5rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ .telefone-edit  input::placeholder{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.rua-av-edit{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: -1rem;
+}
+.rua-av-edit input{
+    width: 23vw;
+    height: 6vh;
+    border-radius: 1rem;
+    letter-spacing: 0.1rem;
+    outline: none;
+    background-color:#0f1015;
+    border-bottom:1px solid #6C7293;
+    padding:1.1rem  2rem 1rem 1rem;
+    color: #fff;
+    font-size: 0.9rem;
+    
+    
+}
+.rua-av-edit input::placeholder{
+    color: #fff;
+}
+.num-empres-edit{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 4rem;
+    margin-left: -15rem;
+}
+.num-empres-edit input{
+    width: 5vw;
+    height: 5vh;
+    border-radius: 1rem;
+    outline: none;
+    background-color:#0f1015;
+    border-bottom:1px solid #6C7293;
+    font-size: 0.9rem;
+    outline: none;
+    padding:0.8rem  2rem 0.8rem 1rem;
+    color: #fff;
+    
+   
+    
+}
+.num-empres-edit  input::placeholder{
+    color: #fff;
+}
+
+.complemento-edit{
+   
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: 4rem;
+    margin-right: -4.6rem;
+  
+    float:right;
+}
+.complemento-edit input{
+    width: 17vw;
+    height: 5vh;
+    border-radius: 1rem;
+    outline: none;
+    background-color:#0f1015;
+    border-bottom:1px solid #6C7293;
+    font-size: 0.9rem;
+    outline: none;
+    padding:0.8rem  2rem 0.8rem 1rem;
+    color: #fff;
+  
+    letter-spacing: 0.1rem;
+}
+.complemento-edit  input::placeholder{
+    color: #fff;
+}
+
+.bairro-edit{
+   
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 9rem;
+    margin-right: 10rem;
+   
+    float:right;
+}
+.bairro-edit input{
+    width: 11vw;
+    height: 5.5vh;
+    border-radius: 1rem;
+ 
+    outline: none;
+    background-color:#0f1015;
+    border-bottom:1px solid #6C7293;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    outline: none;
+    padding:0.8rem  2rem 0.8rem 1rem;
+    color: #fff;
+    
+    
+}
+.bairro-edit  input::placeholder{
+    color: #fff;
+}
+
+.cidade-edit{
+   
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 9rem;
+    margin-right: -9rem;
+    
+    float:right;
+}
+.cidade-edit input{
+    width: 11vw;
+    height: 5.5vh;
+    border-radius: 1rem;
+ 
+    outline: none;
+    background-color:#0f1015;
+    border-bottom:1px solid #6C7293;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    outline: none;
+    padding:0.8rem  2rem 0.8rem 1rem;
+    color: #fff;
+   
+    
+}
+.cidade-edit  input::placeholder{
+    color: #fff;
+}
+
+.button-edit{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+.button-edit button{
+    
+    width: 10vw; 
+    height: 5vh;
+    font-family: 'Rubik', sans-serif;
+    background-color: #ED8C1A;
+    padding: -0.1rem 2rem 0.3rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background .3s;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 2rem; 
+    letter-spacing: 0.1rem;
+    margin-top: 21rem;
+    margin-left: -1.5rem;
+}
+
+
+.button-edit button:hover{
+    background-color: black;
+    color: #ED8C1A;
+    font-weight: bold;
+    
+}
+
+
+.clos{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 2rem;
+    height: 2rem;
+    right: calc(-100% + 2.1rem);
+    top: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+ .clos::before , .clos::after{
+    content: ' ';
+    position: absolute;
+    width: 0.2rem;
+    height: 1.2rem;
+    background-color: white; 
+ }
+
+ .clos::before{
+    transform: rotate(45deg);
+ }
+ .clos::after{
+    transform: rotate(-45deg);
+ }
+

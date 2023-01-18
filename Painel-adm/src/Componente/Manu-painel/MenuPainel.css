@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.logo {
+  position: absolute;
+  margin-top: 0.1rem;
+  width: 4.5vw;
+  margin-left: -68rem;
+}
+.logo-nome {
+  position: absolute;
+  display: flex;
+  margin: 1.4rem 13rem 1rem -65rem;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  z-index: 3;
+}
+.menu2-adm {
+  position: fixed;
+  background-color: #191c24;
+  width: 100vw;
+  height: 10vh;
+  z-index: 10;
+  margin-top: -5rem;
+}
+
+.container {
+  position: absolute;
+  top: 2rem;
+  left: 75rem;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.btn {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: transparent;
+  min-width: 200px;
+  border: none;
+
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-size: 12px;
+
+  letter-spacing: 1.2px;
+
+  overflow: hidden;
+  cursor: pointer;
+}
+.btn .fa-sort-desc {
+  margin-left: 0.4rem;
+  font-size: 1rem;
+}
+.btn p {
+  font-size: 1.2rem;
+}
+.btn:focus .dropdown,
+.btn:active .dropdown {
+  transform: translate(0, 20px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn .dropdown {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 100%;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+}
+.btn .dropdown:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 160px;
+  width: 0;
+  height: 0;
+
+  transform: rotate(-45deg);
+  mix-blend-mode: multiple;
+}
+.btn .dropdown li {
+  text-transform: uppercase;
+  z-index: 1;
+  position: relative;
+
+  background: #000000;
+  padding: 0.1rem 1.2rem;
+  color: #6c7293;
+}
+.btn .dropdown li:hover {
+  background-color: #191c24;
+  color: #fff;
+}
+.btn .dropdown .active {
+  color: #ed8c1a;
+}
+
+.btn .dropdown li:first-child {
+  border-radius: 3px 3px 0 0;
+}
+.btn .dropdown li:last-child {
+  border-radius: 0 0 3px 3px;
+}
+.btn .dropdown li:last-child a {
+  border-bottom: 0;
+}
+.btn .dropdown a {
+  display: block;
+  border-bottom: 1px solid #6c7293;
+  padding: 12px 0;
+  color: inherit;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.btn .dropdown .fa-cog {
+  color: #008000;
+  font-size: 1rem;
+  margin-right: 0.3rem;
+}
+.btn .dropdown .fa-sign-out {
+  color: #ff0000;
+  font-size: 1rem;
+  margin-right: 0.3rem;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1),
+      0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1),
+      0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1),
+      0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1),
+      0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1),
+      0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1),
+      0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}

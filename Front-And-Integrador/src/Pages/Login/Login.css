@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+.modal01 {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  z-index: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./imag/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal01-content {
+  color: white;
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 30vw;
+  height: 82vh;
+
+  padding: 0;
+  border: 2px solid transparent;
+}
+
+.modal-header01,
+.modal01-body {
+  padding: 10px;
+}
+.modal01-header {
+  /* background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
+  height: 12vh;
+}
+.modal01-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
+  height: 70vh;
+}
+.modal01-body p {
+  position: absolute;
+  color: white;
+  font-weight: none;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.nome01 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 5rem;
+  float: left;
+}
+
+.nome01 input {
+  width: 24vw;
+  height: 5vh;
+  border-radius: 25rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  color: #000;
+  padding: 0.4em 2rem 0.1rem 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+.nome01 input::placeholder {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.senha03 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 9.1rem;
+  float: left;
+}
+.senha03 input {
+  width: 24vw;
+  height: 5vh;
+  font-size: 1.1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  color: #000;
+  border-radius: 25rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 0.4em 2rem 0.1rem 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.senha03 input::placeholder {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.label {
+  position: absolute;
+  color: #ed8c1a;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 20vw;
+  margin-top: 11.3rem;
+  font-size: 1rem;
+  margin-left: -1rem;
+}
+
+.ui-button-login {
+  position: absolute;
+  background-color: #ed8c1a;
+  width: 10.5vw;
+  height: 5vh;
+  margin-top: 20rem;
+  margin-left: 0.4rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 25rem;
+  white-space: nowrap;
+}
+.ui-button-login:hover {
+  background-color: black;
+  color: #ed8c1a;
+  font-weight: bold;
+}
+.ui-button-login:active {
+  background-color: white;
+  color: #ed8c1a;
+}

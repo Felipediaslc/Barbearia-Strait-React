@@ -1,0 +1,94 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model administradores {
+  id          Int     @id @default(autoincrement())
+  nomeEmpres  String? @map("nome_empres") @db.VarChar(50)
+  cnpj        String? @map("cnpj")@db.VarChar(30)
+  telefone    String? @map("telefone")@db.VarChar(15)
+  email       String? @unique @map("email")@db.VarChar(50)
+  ruaAv       String? @map("rua_av") @db.VarChar(30)
+  numEnd      String? @map("num_end")
+  complemento String? @db.VarChar(20)
+  bairro      String? @db.VarChar(20)
+  cidade      String? @db.VarChar(20)
+  senhaAdm    String? @db.VarChar(50)
+  funcionarios funcionarios[]
+  planos       planos[]
+}
+
+model agendamentos {
+  id            Int       @id @default(autoincrement())
+  data          String?   @db.VarChar(20)
+  tempo         String?   @db.VarChar(20)
+  servico       String?   @db.VarChar(25)
+  funcionario   String?   @db.VarChar(20)
+  formPague     String?   @map("form_pague") @db.VarChar(30)
+ idFuncionario  Int?       @map("id_funcionario")
+  funcionarios funcionarios? @relation(fields: [idFuncionario], references: [matricula])     
+  idUsuario     Int?       @map("id_usuario")
+  usuarios      usuarios?  @relation(fields: [idUsuario], references: [id])
+  servicos      servicos[]
+}
+
+model funcionarios {
+  matricula         Int     @id @default(autoincrement())
+  nomeFun           String? @map("nome_fun") @db.VarChar(50)
+  telefoneFun       String? @map("telefone_fun") @db.VarChar(15)
+  cpfFun            String? @map("cpf_fun") @db.VarChar(30)
+  ruaAv             String? @map("rua_av") @db.VarChar(20)
+  numEnd            String?    @map("num_end")
+  complemento       String? @db.VarChar(15)
+  bairro            String? @db.VarChar(15)
+  cidade            String? @db.VarChar(15)
+  
+  idAdministradores Int?    @map("id_administradores")
+    administradores   administradores?   @relation(fields: [idAdministradores], references: [id])
+ 
+  agendamentos  agendamentos[]
+ 
+}
+
+model planos {
+  id                Int     @id @default(autoincrement())
+  tipoPlano         String? @map("tipo_plano") @db.VarChar(50)
+  quantProfissional Int?    @map("quant_profissional")
+  valorPlano        Float?  @map("valor_plano") @db.Float
+  listSuport        String? @map("list_suport") @db.VarChar(50)
+  idAdministradores Int?    @map("id_administradores")
+  administradores   administradores?    @relation(fields: [idAdministradores], references: [id])
+ 
+
+  
+}
+
+
+
+model servicos {
+  id           Int     @id @default(autoincrement())
+  tipoServico  String? @map("tipo_servico") @db.VarChar(50)
+  descricao    String? @db.VarChar(100)
+  valor        Float?  @db.Float
+  idAgendament Int?    @map("id_agendament")
+  agendamentos agendamentos? @relation(fields: [idAgendament], references: [id])
+
+
+}
+
+model usuarios {
+  id           Int     @id @default(autoincrement())
+  nomeCompleto String? @map("nome_completo") @db.VarChar(50)
+  telefone     String? @db.VarChar(30)
+  cpfUser      String? @unique @map("cpf_user") @db.VarChar(30)
+  email        String? @unique @map("email")@db.VarChar(50)
+  senha        String? @db.VarChar(50)
+  agendamentos  agendamentos[] 
+}
+
+

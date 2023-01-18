@@ -1,0 +1,245 @@
+.body-configconta {
+  
+
+ 
+  display: flex;
+  margin-left: -17.4rem;
+  margin-top: -3.5rem;
+}
+
+.container-configconta {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #191c24;
+  width: 77.5vw;
+  height: 69vh;
+  margin-top: 4rem;
+  margin-left: 35rem;
+
+  border-radius: 6rem 0 6rem 0;
+}
+
+.edit-user {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-right: 0.1px solid #6c7293;
+  width: 43vw;
+  height: 60vh;
+  margin-left: -35rem;
+  margin-top: 1rem;
+  border-radius: 6rem 0 0 0;
+  z-index: 10;
+}
+
+.edit-user #alterar-perfil {
+  position: absolute;
+  margin: -19rem 0 0 31rem;
+  color: #0000ff;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.edit-user p a {
+  color: #0000ff;
+}
+
+.edit-user .info-adm {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: -22rem 0 0 5rem;
+  z-index: 10;
+}
+
+.edit-user #nom {
+  position: absolute;
+  color: #6c7293;
+  margin: -13rem 16.5rem 0 0;
+}
+.edit-user #tel {
+  position: absolute;
+  color: #6c7293;
+  margin: -8.3rem 21rem 0 0;
+}
+.edit-user #end {
+  position: absolute;
+  color: #6c7293;
+  margin: -4rem 20.5rem 0 0;
+}
+.edit-user #num {
+  position: absolute;
+  color: #6c7293;
+  margin: 0.5rem 23.5rem 0 0;
+}
+.edit-user #comp {
+  position: absolute;
+  color: #6c7293;
+  margin: 0.5rem 1rem 0 10rem;
+}
+.edit-user #bair {
+  position: absolute;
+  color: #6c7293;
+  margin: 5rem 22.2rem 0 0;
+}
+.edit-user #cid {
+  position: absolute;
+  color: #6c7293;
+  margin: 9.8rem 21.5rem 0 0;
+}
+
+.edit-senha {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+
+  width: 50vw;
+  height: 84vh;
+  margin-left: 35rem;
+  letter-spacing: 0.1rem;
+}
+
+.cont-delet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 30vw;
+  height: 84vh;
+  margin-left: 52rem;
+  border-radius: 0 0 6rem 0;
+}
+
+.edit-senha h6 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: -22rem 0 0 0;
+}
+
+.edit-senha #senha-alter {
+  position: absolute;
+  color: #6c7293;
+  margin: -16rem 20.1rem 0 0;
+  cursor: pointer;
+}
+.edit-senha h2{
+  margin-top: -17rem;
+  margin-left: -13.6rem;
+  position: absolute;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.edit-senha #edit {
+  position: absolute;
+  cursor: pointer;
+  margin: -18rem 0 0 20rem;
+  color: #0000ff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.edit-senha p a {
+  color: #0000ff;
+}
+
+.edit-senha span {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 9rem 0 6rem 0;
+}
+
+.edit-senha .button-delet-adm {
+  letter-spacing: 0.1rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.edit-senha .button-delet-adm button {
+  width: 15vw;
+  height: 7vh;
+  font-family: "Rubik", sans-serif;
+  background-color: transparent;
+  border: 0.2px solid #6c7293;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: #ff0000;
+
+  font-size: 1rem;
+  border-radius: 2rem;
+  letter-spacing: 0.1rem;
+  margin-top: 15rem;
+  margin-left: 0.5rem;
+}
+
+.edit-senha .button-delet-adm button:hover {
+  background-color: #000000;
+  border: none;
+}
+
+/* CSS PREENCHER PERFIL */
+
+.preenche-empres {
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+}
+
+.preenche-empres #preenche-nomes {
+  position: absolute;
+  color: #fff;
+  margin: -7rem 0 0 -3.8rem;
+}
+
+.preenche-empres #preenche-tel {
+  position: absolute;
+  color: #fff;
+  margin: -4.6rem 0 0 -8.2rem;
+}
+
+.preenche-empres #preenche-end {
+  position: absolute;
+  color: #fff;
+  margin: -2.5rem 0 0 -7.8rem;
+}
+
+.preenche-empres #preenche-num {
+  position: absolute;
+  color: #fff;
+  margin: -0.2rem 0 0 -10.7rem;
+}
+
+.preenche-empres #preenche-complement {
+  position: absolute;
+  color: #fff;
+  margin: -0.2rem 0 0 8.1rem;
+}
+.preenche-empres #preenche-bairro {
+  position: absolute;
+  color: #fff;
+  margin: 2rem 0 0 -9.5rem;
+}
+.preenche-empres #preenche-cid {
+  position: absolute;
+  color: #fff;
+  margin: 4.4rem 0 0 -8.8rem;
+}

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+.modal{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 1; 
+    background: linear-gradient( rgba(0,0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./imag/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+.modal-content{
+    
+    color: white;
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 30vw ;
+    height: 82vh;
+  
+    padding: 0;
+    border: 2px solid transparent;
+   
+  }
+.modal-header, .modal-body {
+    padding: 10px;
+    }
+.modal-header{
+    /* background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
+    height: 12vh;
+    }
+.modal-body{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
+    height: 70vh;
+      }
+.modal-body p{        
+    position: absolute;
+    color: white;
+    font-weight: none;
+    font-size: 2rem;
+      } 
+
+.nome{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin-top: 5rem;
+    margin-left: 0.4rem;
+    z-index: 2;
+    
+      }
+.nome input{
+    width: 25.5vw;
+    height: 5vh;
+    border-radius: 25rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    color: #000;
+    border: none;
+    padding:0.4em 2rem 0.1rem 1.5rem;
+    outline: none;
+    text-align: center;
+   
+    font-family: 'Montserrat', sans-serif;
+      }
+
+.nome  input::placeholder{
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3em;
+      }
+
+.celular{
+  
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 8.5rem;
+    width: 25vw;
+    height: 0vh;
+    z-index: 1;
+    float: left;
+    }
+    
+.celular input{
+    width: 12.4vw;
+    height: 5vh;
+    text-align: center;
+    padding:0.4em 2rem 0.1rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+   
+    color: #000;
+    outline: none;
+    border-radius: 25rem;
+    font-family: 'Montserrat', sans-serif;
+    }
+.celular input::placeholder{
+    margin-top: 0.3rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1rem;
+    
+    }
+.cpf{
+ 
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 8.5rem;
+    width: 25.6vw;
+    height: 0vh;
+    z-index: 1;
+    float: right;
+      }
+      
+.cpf input{
+    width: 12.4vw;
+    height: 5vh;
+    padding:0.4em 2rem 0.1rem 1.5rem;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+    font-weight: bold;
+    outline: none;
+    border-radius: 25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.cpf input::placeholder{
+    color: #000;
+    font-weight: bold; 
+    font-size: 1.1rem;
+     }
+
+.email-login{
+ 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    margin-top: 10rem;
+    margin-left: 0.4rem;
+    
+       
+     }
+.email-login input{
+    width: 25.5vw;
+    height: 5vh;
+    padding:0.4em 2rem 0.1rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    color: #000;
+    font-weight: bold;
+    outline: none;
+    border-radius: 25rem;
+    font-family: 'Montserrat', sans-serif;  
+}
+.email-login input::placeholder{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0 -3rem;
+     }
+
+.senha01{
+ 
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12.5rem;
+    margin-left: 0.4rem; 
+     }
+.senha01 input{
+    background-color: transparent;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding:0.4em 2rem 0.1rem 1.5rem;
+    color: #000;
+    font-weight: bold;
+    width: 25.5vw;
+    height: 5vh;
+    text-align: center;      
+    outline: none;
+    border-radius: 25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.senha01 input::placeholder{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+      
+     }
+
+.senha02{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15rem;
+    margin-left: 0.4rem;
+    z-index: 1;
+      }
+.senha02 input{
+    width: 25.5vw;
+    height: 5vh;
+    border:none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding:0.4em 1rem 0.1rem 1.5rem;
+    color: #000;
+    font-weight: bold;
+    outline: none;
+    border-radius: 25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.senha02 input::placeholder{
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: bold;
+    
+      }
+.ui-button{
+    position: absolute;
+    background-color: #ED8C1A;
+    width: 10.5vw;
+    height: 5vh;
+    margin-top: 20rem;
+    margin-left: 0.4rem;  
+    border: 1px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: black;      
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem; 
+    white-space: nowrap; 
+    }
+    .ui-button:hover{
+    background-color: black;
+    color: #ED8C1A;
+    font-weight: bold;      
+    }    
+    .ui-button:active{
+    background-color: white;
+    color: #ED8C1A;  
+    }
+
+      

@@ -1,0 +1,56 @@
+.get-user {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 10rem;
+  background-color: #191c24;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  width: 78vw;
+  height: 66.9vh;
+  margin: 1rem 10rem 10rem 17.4rem;
+}
+
+.get-user .list-usuarios {
+  position: absolute;
+  z-index: 10rem;
+  width: 76vw;
+  height: 57vh;
+
+  margin: 1rem 1.9rem 1rem 2rem;
+}
+.get-user .list-usuarios h2 {
+  background-color: #000000;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+  padding: 1rem 2rem 1rem 1rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.get-user .list-usuarios table {
+  border-collapse: collapse;
+  width: 76vw;
+}
+
+.get-user .list-usuarios td {
+  padding: 1rem 1rem 1rem 6rem;
+  background-color: #000000;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+  color: #6c7293;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.get-user .list-usuarios th {
+  letter-spacing: 0.1rem;
+  color: #6c7293;
+  background-color: #000000;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  padding: 0.7rem 5.2rem 0.7rem 4rem;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+}

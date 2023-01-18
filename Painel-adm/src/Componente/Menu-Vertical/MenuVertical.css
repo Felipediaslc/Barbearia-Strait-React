@@ -1,0 +1,287 @@
+.painel-nav {
+  
+    display: flex;
+    justify-content: flex-start;
+    
+    margin-top: 5rem;
+    width: 20vw;
+    height:100vh;
+    color: #fff;
+    background-color: #191c24;
+    border-top-right-radius: 2rem;
+    font-family: 'Rubik', sans-serif;
+   }
+ 
+   .painel-nav  .fa-ellipsis-v{
+     position: absolute;
+     margin: 2rem 1rem 2rem 11.1rem;
+     font-size: 1.2rem;
+   }
+   
+   .painel-nav h3{
+     position: absolute;
+     padding: 2rem 0.1rem 1rem 4rem;
+     letter-spacing: 0.1rem;
+   }
+   
+   .painel-nav h4{
+     position: absolute;
+     padding: 6.5rem 0.1rem 1rem 1rem;
+     color: #6C7293;
+   }
+   
+   .painel-nav .sub-title{
+     padding: 3.5rem 0.1rem 1rem 0.1rem;
+     margin-left: -10rem;
+     font-size: 0.9rem;
+     letter-spacing: 0.1rem;
+     color: #6C7293;
+   }
+   
+   
+   .naveg{
+     position: absolute;
+     margin: 10rem 0 2rem 0.5rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+   }
+   
+   
+   .naveg ul  .user{
+     
+     background-color: #0F1015;
+     color: #fff;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 1rem 6rem 0.7rem 1.7rem;
+     margin: -1rem 0 1rem -0.5rem;
+     border-top-right-radius: 2rem;
+     border-bottom-right-radius: 2rem;
+     font-size: 1.2rem;
+     border-left:5px solid#fff ;
+     cursor: pointer;
+   }
+   
+   .naveg ul .user i{
+     padding-right: 0.3rem;
+     
+   }
+   .naveg ul .user a {
+    color: #fff;
+  }
+  .naveg ul  .user:hover{
+    border-left:5px solid #ED8C1A ;
+  }
+   .naveg ul  .funcion{
+     
+     background-color: #0F1015;
+     color: #fff;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 1rem 3.4rem 0.7rem 1.5rem;
+     margin: 1rem 0 1rem -0.5rem;
+     border-top-right-radius: 2rem;
+     border-bottom-right-radius: 2rem;
+     font-size: 1.2rem;
+     border-left:5px solid#fff ;
+     cursor: pointer;
+    }
+    
+    .naveg ul .funcion i{
+      padding-right: 0.3rem;
+    }
+    .naveg ul .funcion a {
+      color: #fff;
+    }
+    .naveg ul  .funcion:hover{
+      border-left:5px solid #ED8C1A ;
+    }
+   .naveg ul  .lista{
+     
+     background-color: #0F1015;
+     color: #fff;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 1rem 3.4rem 0.7rem 1.5rem;
+     margin: 1rem 0 1rem -0.5rem;
+     border-top-right-radius: 2rem;
+     border-bottom-right-radius: 2rem;
+     font-size: 1.2rem;
+     border-left:5px solid#fff ;
+     cursor: pointer;
+   }
+   
+   .naveg ul .lista i{
+     padding-right: 0.3rem;
+   }
+ 
+   .naveg ul .lista a {
+    color: #fff;
+   }
+   .naveg ul  .lista:hover{
+     border-left:5px solid #ED8C1A ;
+   }
+
+   .naveg ul  .financeiro{
+     
+    background-color: #0F1015;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 3.4rem 0.7rem 1.5rem;
+    margin: 1rem 0 1rem -0.5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-size: 1.2rem;
+    border-left:5px solid#fff ;
+    cursor: pointer;
+  }
+  
+  .naveg ul .financeiro i{
+    padding-right: 0.3rem;
+  }
+
+  .naveg ul .financeiro a {
+   color: #fff;
+  }
+  .naveg ul  .financeiro:hover{
+    border-left:5px solid #ED8C1A ;
+  }
+   
+   /* menu vertival FIM  */
+   /* dropdown 02  */
+ 
+         */
+ 
+   .painel-nav   .container-drop2 {
+    
+     top: 6.5rem;
+     left: 8rem;
+     transform: translate(-50%, -50%);
+     position: absolute;
+     z-index: 10;
+   }
+   
+   .painel-nav   .container-drop2    .btn-drop2 {
+     outline: 0;
+     display: inline-flex;
+     align-items: center;
+     justify-content: flex-end;
+     background: transparent;
+     min-width: 230px;
+     border: none;
+     box-sizing: border-box;
+     padding: 2.2rem 1.4rem;
+     color: #FFFFFF;
+     letter-spacing: 1.2px;
+
+     overflow: hidden;
+     cursor: pointer;
+   }
+  
+   .btn-drop2:focus .dropdown-drop2, .btn-drop2:active .dropdown-drop2 {
+     transform: translate(0, 20px);
+     opacity: 1;
+     visibility: visible;
+   }
+  
+   .btn-drop2 .dropdown-drop2   {
+     position: absolute;
+     top: 7.5rem;
+     left: 1rem;
+    z-index:10;
+     width: 18vw;
+     height: 19vh;
+     border-radius: 5px;
+    background-color: #000000;
+     text-align: left;
+     opacity: 0;
+     visibility: hidden;
+     transition: 0.3s ease;
+   }
+   .btn-drop2 .dropdown-drop2  li a{
+    font-size: 0.7rem;
+    margin: -1.7rem 0.6rem 1rem 2.3rem;
+   }
+  
+ 
+ 
+   .btn-drop2 .dropdown-drop2     .fa-cog {
+     color: #0000FF;
+     font-size: 1rem;
+     margin-left: 1rem;
+   
+     
+   }
+ 
+   .btn-drop2 .dropdown-drop2    .fa-address-card-o{
+     color:  #008000;
+     font-size: 1rem;
+     margin-left: 0.8rem;
+   }
+   .btn-drop2 .dropdown-drop2     .fa-calendar{
+     color: #ED8C1A;
+     font-size: 1rem;
+     margin-left: 0.8rem;
+    }
+    
+    .btn-drop2 .dropdown-drop2 li {
+      text-transform: uppercase;
+      z-index: 1;
+      height: 6vh;
+      font-size: 0.6rem;
+      background: none ;
+      padding: 0.6rem 0.9rem 0.1rem 0;
+      color: #6C7293;
+    }
+    .btn-drop2 .dropdown-drop2 a {
+  
+      display: block;
+      border-bottom: 1px solid #6C7293;
+      padding: 0.8rem 0;
+      color: inherit;
+      align-items: center;
+      font-size:0.7rem;
+      font-weight: bold;
+      
+    }
+   .btn-drop2 .dropdown-drop2 li:hover{
+   
+     background-color: #0F1015;
+     color: #fff;
+   }
+
+  
+   .btn-drop2 .dropdown-drop2 li:first-child {
+     border-radius: 4px 4px 0 0;
+   }
+   .btn-drop2 .dropdown-drop2 li:last-child {
+     border-radius: 0 0 4px 4px;
+   }
+   .btn-drop2 .dropdown-drop2 li:last-child {
+     border-bottom: 0;
+   }
+   
+   @-webkit-keyframes ripple {
+     0% {
+       box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+     }
+     100% {
+       box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+     }
+   }
+   
+   @keyframes ripple {
+     0% {
+       box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+     }
+     100% {
+       box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+     }
+   }

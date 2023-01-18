@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.modalss{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:-22.6rem;
+    left: -33.8rem;
+    
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers{
+    background: linear-gradient( rgba(0,0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./imag/background.png');
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    top: -20rem;
+    border-radius: 1rem;
+     margin-right: 8rem;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.closes{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 2rem;
+    height: 2rem;
+    right: calc(-100% + 2.1rem);
+    top: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+ .closes::before , .closes::after{
+    content: ' ';
+    position: absolute;
+    width: 0.2rem;
+    height: 1.2rem;
+    background-color: white; 
+ }
+
+ .closes::before{
+    transform: rotate(45deg);
+ }
+ .closes::after{
+    transform: rotate(-45deg);
+ }
+
+ .recupera-titulo{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3.5rem;
+    margin-left: 7.5rem;
+    position:absolute;
+    letter-spacing: 0.1rem;  
+ }
+ .recupera-titulo h2{
+    
+    color: white;
+    font-size: 1.3rem;
+ }
+ .recupera-descricao{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7.5rem;
+    letter-spacing: 0.1rem;  
+  
+    
+ }
+ .recupera-descricao #desc{
+    margin-top: -1.4rem;
+    margin-left: 7.2rem;
+    color: white;
+    font-size: 1rem;
+ }
+ .email-celular{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ 
+    
+ }
+ .email-celular input{
+    width: 36vw;
+    height: 8vh;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    
+    padding: 0 6rem 0 2rem;
+    color: #000;
+    font-size: 1.2rem;
+    background:rgba(255, 255, 255, 0.7);
+    margin-left: 5.5rem;
+    font-family: 'Open Sans';
+ }
+ .email-celular input::placeholder{
+     color: #000;
+ }
+ 
+ .btn-pesquisar{
+    
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 6.8rem;
+     margin-left: 34.5rem;
+ }
+ .btn-pesquisar a button{
+    background-color: #ED8C1A;
+    width: 8vw;
+    height: 5vh;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem;   
+ }
+ .btn-pesquisar button:hover{
+    background-color: black;
+    color: #ED8C1A;
+    
+    
+ }
+ 
+ .btn-cancela{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+ }
+ .btn-cancela a button{
+    background-color: transparent;
+    width: 8vw;
+    height: 5vh;
+    margin-top: 6.8rem;
+    margin-left: 27rem; 
+    
+    cursor: pointer;
+    transition: background .3s;
+    color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+    border-radius: 25rem;   
+ }
+ .btn-cancela button:hover{
+     background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6) );
+    color: white;
+    
+    
+ }

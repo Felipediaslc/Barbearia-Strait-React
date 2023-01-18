@@ -1,0 +1,153 @@
+/*GALERIA      */
+
+.galeria{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+   
+  }
+  .galeria p{
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 5rem 0 0 0;
+   font-family: 'Metal Mania', cursive;
+     font-size: 5rem;
+  
+  }
+
+
+
+.wrapper{
+    max-width: 83vw;
+  }
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   padding-left: 12rem;
+   margin-top: -0.5rem;
+  }
+  .image{
+    padding: 7px;
+    width: calc(100% / 3);
+  }
+  .gallery .image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  .gallery .image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+  }
+  .gallery .image:hover img{
+    transform: scale(1.1);
+  }
+  
+  .preview-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: transparent;
+    max-width: 500px;
+    
+   
+    z-index: 5;
+    opacity: 0;
+    pointer-events: none;
+    
+    padding: 0 2px 2px 2px;
+    
+  }
+  .preview-box.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 0.3s ease;
+   
+  }
+  .preview-box .details{
+    display: flex;
+    align-items: center;
+    padding: -1rem  1rem  1rem  -1rem;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .preview-box .details .title{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .details  p{
+    margin: 0 -5px;
+    visibility: hidden;
+  }
+  .details .title p.current-img{
+    font-weight: 300;
+    visibility: hidden;
+  }
+  
+  .details .icon{
+    color: white;
+   
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .preview-box .image-box{
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+  .image-box .slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size:2rem;
+    cursor: pointer;
+    height: 10px;
+    width: 60px;
+    line-height: 0px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .slide.prev{
+    left: 0px;
+    color: #fff;
+  }
+  .slide.next{
+    right: 0px;
+    color: #fff;
+  }
+  .image-box img{
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+  
+  }
+  .shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: none;
+    background: rgba(0,0,0,0.45);
+  }
+  
+  @media(max-width: 1000px){
+    .gallery .image{
+      width: calc(100% / 2);
+    }
+  }
+  @media(max-width: 600px){
+    .gallery .image{
+      width: 100%;
+      padding: 4px;
+    }
+  }

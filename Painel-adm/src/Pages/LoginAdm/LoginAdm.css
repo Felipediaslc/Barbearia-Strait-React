@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+.modal01 {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  z-index: 100000;
+  background: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.modal01-content {
+  color: white;
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 30vw;
+  height: 82vh;
+
+  padding: 0;
+  border: 2px solid transparent;
+}
+
+.modal-header01,
+.modal01-body {
+  padding: 10px;
+}
+.modal01-header {
+  position: absolute;
+}
+.modal01-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #191c24;
+  height: 75vh;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.modal01-body p {
+  margin-top: 3rem;
+  position: absolute;
+  color: white;
+  font-weight: none;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.nome01 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 9rem;
+  float: left;
+}
+
+.nome01 input {
+  width: 24vw;
+  height: 6vh;
+  padding: 0.4em 2rem 0.1rem 1.5rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  letter-spacing: 0.1rem;
+
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+  border-radius: 2rem;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+.nome01 input::placeholder {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.nome01 .uil-user {
+  position: absolute;
+  margin: 0 17rem 0.4rem -0.5rem;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.senha03 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 14rem;
+  float: left;
+}
+.senha03 input {
+  width: 24vw;
+  height: 6vh;
+  padding: 0.4em 2rem 0.1rem 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  letter-spacing: 0.1rem;
+  border-radius: 2rem;
+  background-color: #0f1015;
+  border-bottom: 1px solid #6c7293;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+.senha03 input::placeholder {
+  color: white;
+}
+
+.senha03 .uil {
+  position: absolute;
+  margin: 0 17rem 0.3rem -0.5rem;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.button-admlog {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 5vh;
+  width: 10vw;
+  font-family: "Rubik", sans-serif;
+  background-color: #ed8c1a;
+  padding: 0.1rem 2rem 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 2rem;
+  letter-spacing: 0.1rem;
+  margin-top: 22rem;
+  margin-left: -1.5rem;
+}
+
+.button-admlog:hover {
+  background-color: black;
+  color: #ed8c1a;
+  font-weight: bold;
+}
