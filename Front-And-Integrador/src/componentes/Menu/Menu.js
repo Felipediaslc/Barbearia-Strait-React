@@ -9,7 +9,7 @@ function Menu() {
       <header className='header' >
 
             <img    className='logo' src={logo}  alt='locomarca'/>
-            <p className='logo-nome'>Straits</p>
+            <p className='logo-nome'>Strait</p>
             <nav className='nav'>
            
               <ul className='menu' role="menu">
